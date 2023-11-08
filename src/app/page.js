@@ -1,11 +1,16 @@
 import Banner from "@/components/banner/Banner";
-import Navbar from "@/components/navbar/Navbar";
+import Partner from "@/components/partner/Partner";
 
 export default function Home() {
   return (
-    <main className="w-11/12 mx-auto">
-      <Navbar/>
+    <main>
+      <section className="w-11/12 mx-auto">
+
+      </section>
       <Banner/>
+      <section className="w-11/12 mx-auto">
+      <Partner/>
+      </section>
     </main>
   )
 }
