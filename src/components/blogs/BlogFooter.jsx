@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const BlogFooter = () => {
   return (
-    <div className="w-3/6 mx-auto text-center text-white mt-14">
-      <p className="text-xl  mb-10">
+    <div className=" md:w-3/6 mx-auto text-center text-white mt-14">
+      <p className="md:text-xl  mb-10">
         We wish we could show you all the work we've done. Unfortunately, we're
         often bound by the non-disclosure agreements.
       </p>

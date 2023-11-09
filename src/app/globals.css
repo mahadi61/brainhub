@@ -26,6 +26,17 @@
 
 body {
   background: var(--background);
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Style for WebKit-based browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }
 .primary-color {
   color: var(--primary-color);

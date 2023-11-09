@@ -8,7 +8,7 @@ const Partner = () => {
           Brainhub is a software engineering agency trusted by 80+ US & European
           startups, scale-ups & enterprises.
         </p>
-        <div className="flex justify-evenly">
+        <div className="w-5/6 mx-auto  flex items-center md:justify-evenly flex-col md:flex-row">
           {/* all partner */}
           <Image
             src={"/images/partner/pwe.webp"}

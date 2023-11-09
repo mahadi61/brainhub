@@ -9,15 +9,15 @@ const BannerContent = () => {
   return (
     <>
       <div className="text-center">
-        <h1 className="text-white text-5xl font-semibold mb-2">
+        <h1 className="text-white text-2xl md:text-5xl font-semibold mb-2">
           High-performing teams of
         </h1>
-        <h1 className="primary-color text-5xl font-semibold">
+        <h1 className="primary-color text-3xl md:text-5xl font-semibold">
           vetted software engineers.
         </h1>
         {/* banner content people image */}
-        <div className="text-white flex items-end justify-center my-8 gap-3">
-          <h1 className="text-7xl font-medium">[</h1>
+        <div className="text-white flex items-center  justify-center my-8 md:gap-3">
+          <h1 className="text-4xl md:text-7xl font-medium">[</h1>
           <Image src={avatar1} width={72} height={73} alt="Photo" />
           <p className="text-6xl font-medium">,</p>
           <Image src={avatar2} width={72} height={73} alt="Photo" />
@@ -25,7 +25,7 @@ const BannerContent = () => {
           <Image src={avatar3} width={72} height={73} alt="Photo" />
           <p className="text-6xl font-medium">,</p>
           <Image src={avatar4} width={72} height={73} alt="Photo" />
-          <h1 className="text-7xl font-medium">]</h1>
+          <h1 className="text-4xl md:text-7xl  font-medium">]</h1>
         </div>
 
         <p className="text-white max-w-xl mx-auto mt-8 mb-16">

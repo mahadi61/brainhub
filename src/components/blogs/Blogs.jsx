@@ -7,7 +7,7 @@ const Blogs = () => {
     <div className=" w-11/12 mx-auto py-28">
       <BlogHeader />
       {/* blog post section */}
-      <div className="grid grid-cols-2 gap-y-10 my-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 my-20">
         {/* card 1 */}
 
         <BlogCard
@@ -21,7 +21,7 @@ const Blogs = () => {
           withstand heavy data flows with no compromises on a security side."
         />
         {/* card 2 */}
-        <div className="justify-self-end">
+        <div className="md:justify-self-end">
           <BlogCard
             cardImage="/images/projectThumbnail/national.webp"
             width={400}
@@ -33,7 +33,7 @@ const Blogs = () => {
         </div>
         {/* card 3 */}
 
-        <div className="self-end">
+        <div className="md:self-end">
           <BlogCard
             cardImage="/images/projectThumbnail/paradox-laptop.webp"
             width={400}
@@ -45,7 +45,7 @@ const Blogs = () => {
         </div>
         {/* card 4 */}
 
-        <div className="justify-self-end">
+        <div className="md:justify-self-end">
           <BlogCard
             cardImage="/images/projectThumbnail/mobile.webp"
             width={500}

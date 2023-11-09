@@ -4,10 +4,10 @@ const BlogHeader = () => {
       <p className="primary-color text-sm font-semibold">
         [ WHY TECH COMPANIES CHOOSE BRAINHUB IN 2023 ]
       </p>
-      <h1 className="text-white text-5xl my-10">
+      <h1 className="text-white text-3xl md:text-5xl my-10">
         “A pain-free alternative to hiring engineers in-house.”
       </h1>
-      <p className="text-white text-xl">
+      <p className="text-white md:text-xl">
         Focus solely on your product vision while we provide you with a
         dedicated team of A-player engineers ready to build, modernize and scale
         your software.
