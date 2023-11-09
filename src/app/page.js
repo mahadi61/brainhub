@@ -5,8 +5,10 @@ import Partner from "@/components/partner/Partner";
 
 export default function Home() {
   return (
-    <main>
+    <main className="max-w-7xl mx-auto">
+      <section className="bg-[#0f1115] sticky top-0">
       <Navbar/>
+      </section>
       <section className="sticky top-0 -z-40 w-full ">
       <Banner/>
       </section>

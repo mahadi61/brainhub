@@ -26,7 +26,7 @@ const BlogCard = ({
         <h1 className="text-2xl font-semibold my-4">{cardHeading}</h1>
         <p>{description}</p>
 
-        <p className="border-b-[1px] hover:border-b-2 border-[#4c4c4c] text-white font-semibold uppercase pb-1 hover:border-white flex w-32 items-center justify-between mt-10">
+        <p className="border-b-[1px] hover:border-b-2 border-[#4c4c4c] text-white font-semibold uppercase pb-1 hover:border-white flex w-32 items-center justify-between mt-10 mb-2">
           Read more
           <svg
             width="12"

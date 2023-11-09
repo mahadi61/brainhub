@@ -67,7 +67,7 @@ const Navbar = () => {
       {/* right site button */}
       <Link
         href={"https://brainhub.eu/contact"}
-        className="px-9 py-3 text-white font-bold hidden md:block  hover:bg-[#000000] bg-[#242933] uppercase "
+        className="px-9 py-3 text-white font-bold hidden lg:block  hover:bg-[#000000] bg-[#242933] uppercase "
       >
         <p className="flex items-center justify-between gap-4 ">
           Get a proposal
