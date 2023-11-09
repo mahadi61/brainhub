@@ -65,7 +65,7 @@ const BannerContent = () => {
               src={"/images/icons8-rating-50.png"}
               width={20}
               height={0}
-              alt="right arrow"
+              alt="star"
             />
           ))}
         </p>
