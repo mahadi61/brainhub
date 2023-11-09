@@ -11,7 +11,15 @@ const BlogCard = ({
   return (
     <div className={cardMaxWidth}>
       {/* card image */}
-      <Image src={cardImage} width={width} height={400} alt="card image" />
+      <div className="overflow-hidden">
+        <Image
+          src={cardImage}
+          width={width}
+          height={400}
+          alt="card image"
+          className="group "
+        />
+      </div>
       {/* card content */}
       <div className="text-white mt-5">
         <p className="#777779">{cardTitle}</p>

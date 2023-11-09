@@ -4,7 +4,6 @@ const BannerLeft = () => {
   return (
     <>
       <div className="hidden md:block">
-        {" "}
         <div className="flex flex-col gap-9 relative ">
           <Image
             src={
