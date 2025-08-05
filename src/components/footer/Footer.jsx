@@ -13,29 +13,9 @@ export default function Footer() {
           </p>
           <div className="flex items-center space-x-4 mt-6">
             {/* Replace with your actual links/icons */}
-            <a href="#">
-              <img src="/icons/github.svg" alt="GitHub" className="w-5 h-5" />
-            </a>
-            <a href="#">
-              <img
-                src="/icons/linkedin.svg"
-                alt="LinkedIn"
-                className="w-5 h-5"
-              />
-            </a>
-            <a href="#">
-              <img src="/icons/x.svg" alt="X" className="w-5 h-5" />
-            </a>
-            <a href="#">
-              <img
-                src="/icons/facebook.svg"
-                alt="Facebook"
-                className="w-5 h-5"
-              />
-            </a>
-            <a href="#">
-              <img src="/icons/google.svg" alt="Google" className="w-5 h-5" />
-            </a>
+            <a href="#">Facebook</a>
+            <a href="#">Github</a>
+            <a href="#">Twitter</a>
           </div>
         </div>
 
