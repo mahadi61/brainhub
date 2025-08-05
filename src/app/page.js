@@ -1,11 +1,12 @@
 import Banner from "@/components/banner/Banner";
 import Blogs from "@/components/blogs/Blogs";
+import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import Partner from "@/components/partner/Partner";
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="max-w-screen-2xl mx-auto">
       <section className="bg-[#0f1115] sticky top-0 z-50">
       <Navbar/>
       </section>
@@ -16,6 +17,7 @@ export default function Home() {
       <Partner/>
       <Blogs/> 
       </section>
+      <Footer/>
     </main>
   )
 }
